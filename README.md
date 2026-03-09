@@ -45,7 +45,7 @@ Players take turns describing the word without saying it. After discussion, the 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/elise_hadidi/impostor.git
+git clone https://github.com/elise-hadidi/impostor.git
 cd impostor
 
 # 2. Install dependencies
