@@ -73,33 +73,21 @@ No external libraries  just pure Python and Streamlit.
 
 ##  Game Flow
 
-```
-Enter players
+1. Enter players  
+2. App generates a random secret word
+3. A player's name shown, everyone else looks away
+4. That player taps the screen to see AGENT (+ word) or IMPOSTOR (+ hint word)
+5. App randomly picks who starts
+6. Group discusses, then hits Reveal Impostor
+7. App reveals impostor name, secret word, and impostor's hint revealed
      
-Setup  generate a random secret word
-     
-Cover screen  player's name shown, everyone else looks away
-     
-Reveal  player taps to see AGENT (+ word) or IMPOSTOR (+ hint word)
-     
-     ... repeat for every player ...
-     
-Goes First  app randomly picks who starts
-     
-Group discusses, then hits Reveal Impostor
-     
-Result  impostor name, secret word, and impostor's hint revealed
-     
-Play Again (same players, new word) or New Game (same players, fresh start)
-```
-
 ---
 
 ##  Project Structure
 
 ```
-impostor/
- app.py              # Main Streamlit app
- requirements.txt    # Python dependencies (just streamlit)
- README.md
+Impostor-Game/
+├── impostor-app.py              # Main Streamlit app
+├── requirements.txt    # Python dependencies
+└── README.md
 ```
